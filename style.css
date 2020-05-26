@@ -5,28 +5,28 @@ body {
     /*Changes text color of website*/
     color: yellow;
     /*Gives website some room on the sides*/
-    Padding: 500px;
+    Padding: 25px;
     /*Changes font of website*/
     font-family: 'Courier New', Courier, monospace;
 }
 
 h1{
-    font-size: 5em;
+    font-size: 10em;
     border-bottom: 1px solid yellowgreen;
 }
 
 h2{
-    font-size: 2.2em;
+    font-size: 3em;
 }
 
 /*This is how you access the id hello and only color the unique h1 with that id (hello).*/
-#hello{
+#Home{
     color: red;
 }
 
 /*picture*/
 #scary{
-    width: 750px;
+    width: 350px;
     border: 5px blueviolet;
 }
 
