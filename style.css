@@ -1,5 +1,6 @@
 /*My external style sheet*/
 body {
+    margin-top: auto;
     /*Changes background color of website*/
     background: black;
     /*Changes text color of website*/
@@ -12,14 +13,14 @@ body {
 
 h1{
     font-size: 10em;
-    border-bottom: 1px solid yellowgreen;
+    border-bottom: 3px solid yellowgreen;
 }
 
 h2{
-    font-size: 3em;
+    background-color: darkgray;
 }
 
-/*Th1 id tag*/
+/*The h1 id tag*/
 #Home{
     color: red;
 }
@@ -27,15 +28,43 @@ h2{
 /*picture*/
 #scary{
     width: 350px;
-    border-image: 5px blueviolet;
+
+    /*You need to have a border-width and border-style before using border-image.*/
+    border-width: 1px;
+    border-style: dashed;
+    border-color: blueviolet;
 }
 
+
 /*h2?*/
-.main_reasons{
+#main_reasons{
     padding: 5px;
 }
 
-.list_reasons{
-    background: gray;
-    padding 3px;
+/*unordered list bullets*/
+#list_reasons{
+    background-color: gray;
+    color: black;
+    padding: 3px;
+}
+
+.heading{
+    color: darkblue;
+    font-size: 3em;
+}
+
+h4{
+    text-align: center;
+    color: white;
+    background-color: darkslateblue;
+    font-size: 3em;
+    padding: 10px;
+}
+
+h5{
+    text-align: center;
+    color: black;
+    background-color: red;
+    font-size: 5em;
+    padding: 5px;
 }
