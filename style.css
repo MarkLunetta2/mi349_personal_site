@@ -3,26 +3,27 @@
 LEGEND:
 RS = Rule Set
 Sel = Selector
+D = Declaration
 */
 body { /*Sel #1 AND RS #1*/
-    margin-top: auto;
+    margin-top: auto; /*D #1*/
     /*Changes background color of website*/
-    background: black;
+    background: black; /*D #2*/
     /*Changes text color of website*/
-    color: yellow;
+    color: yellow; /*D #3*/
     /*Gives website some room on the sides*/
-    Padding: 25px;
+    Padding: 25px; /*D #4*/
     /*Changes font of website*/
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace; /*D #5*/
 }
 
 h1{ /*RS #2*/
-    font-size: 10em;
-    border-bottom: 3px solid yellowgreen;
+    font-size: 10em; /*D #6*/
+    border-bottom: 3px solid yellowgreen; /*D #7*/
 }
 
 h2{ /*RS #3*/
-    background-color: darkgray;
+    background-color: darkgray; /*D #8*/
 }
 
 /*The h1 id tag*/
@@ -32,12 +33,12 @@ h2{ /*RS #3*/
 
 /*picture*/
 #scary{ /*RS #5*/
-    width: 350px;
+    width: 350px; /*D #9*/
 
     /*You need to have a border-width and border-style before using border-image.*/
-    border-width: 1px;
-    border-style: dashed;
-    border-color: blueviolet;
+    border-width: 1px; /*D #10*/
+    border-style: dashed; /*D #11*/
+    border-color: blueviolet; /*D #12*/
 }
 
 
@@ -59,7 +60,7 @@ h2{ /*RS #3*/
 }
 
 h4{ /*RS #9*/
-    text-align: center;
+    text-align: center; /*D #13*/
     color: white;
     background-color: darkslateblue;
     font-size: 3em;
