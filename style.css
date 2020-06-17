@@ -1,5 +1,10 @@
 /*My external style sheet*/
-body {
+/*
+LEGEND:
+RS = Rule Set
+Sel = Selector
+*/
+body { /*Sel #1 AND RS #1*/
     margin-top: auto;
     /*Changes background color of website*/
     background: black;
@@ -11,22 +16,22 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-h1{
+h1{ /*RS #2*/
     font-size: 10em;
     border-bottom: 3px solid yellowgreen;
 }
 
-h2{
+h2{ /*RS #3*/
     background-color: darkgray;
 }
 
 /*The h1 id tag*/
-#Home{
+#Home{ /*Sel #2 AND RS #4*/
     color: red;
 }
 
 /*picture*/
-#scary{
+#scary{ /*RS #5*/
     width: 350px;
 
     /*You need to have a border-width and border-style before using border-image.*/
@@ -37,23 +42,23 @@ h2{
 
 
 /*h2?*/
-#main_reasons{
+#main_reasons{ /*RS #6*/
     padding: 5px;
 }
 
 /*unordered list bullets*/
-#list_reasons{
+#list_reasons{ /*RS #7*/
     background-color: gray;
     color: black;
     padding: 3px;
 }
 
-.heading{
+.heading{ /*Sel #3 AND RS #8*/
     color: darkblue;
     font-size: 3em;
 }
 
-h4{
+h4{ /*RS #9*/
     text-align: center;
     color: white;
     background-color: darkslateblue;
@@ -61,7 +66,7 @@ h4{
     padding: 10px;
 }
 
-h5{
+h5{ /*RS #10*/
     text-align: center;
     color: black;
     background-color: red;
